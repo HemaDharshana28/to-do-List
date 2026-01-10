@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background: linear-gradient(to bottom, #a16c22b5, #edf4ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.todo-form {
+  background: #ffffff;
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  transition: 0.3s ease;
+}
+.todo-form h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.inp {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+#todo-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #faddc8;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+#todo-input:focus {
+  outline: none;
+  border-color: #6495ed;
+  box-shadow: 0 0 5px rgba(100, 149, 237, 0.4);
+}
+button {
+  background-color: #f4b153;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background-color: #f08502f6;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  background: #f1f9ff;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li:hover {
+  background: #e0f0ff;
+}
+.delete-btn {
+  background-color: #f04122;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.delete-btn:hover {
+  background-color: #e63946;
+}
+.task-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  cursor: pointer;
+}
+.task-text {
+  font-size: 16px;
+  color: #333;
+  transition: 0.2s;
+}
+.task-text.completed {
+  text-decoration: line-through;
+  color: #aaa;
+  opacity: 0.7;
+}
+.check-task {
+  width: 18px;
+  height: 18px;
+  accent-color: #64ed94;
+  cursor: pointer;
+}

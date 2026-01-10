@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TaskFlow — Full-Stack Task Management Application
 
 A production-ready task management app built with **React.js**, **Node.js**, **Express.js**, **MySQL**, **JWT Auth**, and **Tailwind CSS**.
@@ -190,3 +191,71 @@ CLIENT_URL=http://localhost:5173
 - Input validation with **express-validator**
 - CORS configured per environment
 - All task routes scoped to authenticated user (no data leakage)
+=======
+# 📝 To-Do List App
+
+A simple and clean task-management web app built using **HTML**, **CSS**, and **JavaScript**.  
+This project helps users add, delete, and complete tasks efficiently, perfect for beginners learning web development and DOM manipulation.
+
+---
+
+## 🚀 Features
+
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Tasks saved in LocalStorage (optional if you add this feature)  
+- Responsive UI  
+- Clean and minimal design  
+
+---
+
+
+## 🛠️ Technologies Used
+
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+
+---
+
+## 📦 Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/dharshana-566/to-do-List.git
+```
+
+Open the project folder and run:
+
+```bash
+index.html
+```
+
+
+---
+
+## 💡 Future Enhancements
+
+- Dark mode  
+- Categories / tags  
+- Task priority  
+- Due dates & reminders  
+- Search or filter tasks  
+- Improved animations  
+- Full backend + user authentication  
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+>>>>>>> 0f2f891f1ee190fea4b9e12708991c364e00cc82
